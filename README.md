@@ -2,10 +2,14 @@
  Basic 4Axis tools that don't require a paid subscription
 
 
-Center_Object easily splits a body into multiple bodies and centers them near the origin to prepare for machining. It then flips the bottom part upside-down
+Center_Object easily splits a body into multiple bodies and centers them near the origin to prepare for machining. It then flips the bottom part upside-down.
+
 If holes are present, use the PrepareHoles script to extend the holes to the top of the stock. Then use PrepareHolesBottom to extend them to the bottom of the stock.
+
 Then both the top and the bottom can be prepared as usual using the manufacturing tab.
+
 Users with 3Axis machines will have to physically flip the part manually.
+
 Users with a 4th axis can use 360_aluminum_freeform.py outside of Fusion 360 to consolidate the post-processed files into a single file that automatically rotates after each side is finished and accounts for horizontal offsets for maximizing stock space and vertical offsets for stock that isn't properly centered (such as flat aluminum extrusions).
 
 
